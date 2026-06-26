@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2025-06-16T09:31:48-04:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.17</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>A2A Piper Aerostar PA-60-600</Name>
+      <AircraftType>AEST</AircraftType>
+      <Simulator>MSFS</Simulator>
+      <Description>Performance based on data as listed in official Aerostar 600 Airplane Flight Manual.
+
+This profile assumes economy cruise on an ISA Standard Day with engines @ 2400 RPM with power set at 67% at 7,500 feet.
+
+Actual performance will vary depending on weights, fuel, weather and other factors.</Description>
+      <FuelAsVolume>1</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>10.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>2500.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>15.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>2.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>165.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>22.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>165.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>60.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>120.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1800.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>28.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>210.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>20.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>175.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1500.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

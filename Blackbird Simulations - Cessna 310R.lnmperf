@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2022-05-08T13:41:56-05:00</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.7.9.develop</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Milviz Cessna 310R</Name>
+      <AircraftType>C310</AircraftType>
+      <Simulator>MSFS</Simulator>
+      <Description>Performance Data for the Cessna 310R twin-engine by Milviz
+
+Created May 8, 2022 by Roddie Hasan
+
+Data recorded using:
+
+Milviz Cessna 310R release version
+
+Flight from KTKI to KPWA flight plan:
+
+KTKI N0185A085 YOGVA V573 ADM V507 IRW NORRM KPWA
+
+Weather: 59F temp, 29.92 baro, no wind, clear skies
+
+Cruise altitude: 8,500 ft
+
+Followed checklist for recommended mixture/RPM procedures</Description>
+      <FuelAsVolume>1</FuelAsVolume>
+      <JetFuel>0</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>5.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>2000.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>20.000</ReserveFuelLbsGal>
+      <RunwayType>HARD</RunwayType>
+      <TaxiFuelLbsGal>5.000</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>163.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>26.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>150.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>39.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>122.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>34.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>185.000</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>21.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>151.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>
